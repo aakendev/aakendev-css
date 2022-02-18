@@ -46,3 +46,11 @@ body {
   src: url(lt_wave/LTWave-Regular.ttf);
   font-weight: 400;
 }
+/* FLEX */
+.aak-col {
+  display: flex;
+  flex-direction: column;
+}
+.aak-row {
+  display: flex;
+}
