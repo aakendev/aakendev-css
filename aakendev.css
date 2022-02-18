@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: lt_wave, sans-serif;
 }
 /* DEFAULT MODE */
 html {
@@ -11,4 +12,36 @@ html {
 }
 body {
   border: none;
+}
+/* FONTS LT_WAVE */
+@font-face {
+  font-family: lt_wave;
+  src: url(lt_wave/LTWave-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: lt_wave;
+  src: url(lt_wave/LTWave-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: lt_wave;
+  src: url(lt_wave/LTWave-Italic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: lt_wave;
+  src: url(lt_wave/LTWave-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: lt_wave;
+  src: url(lt_wave/LTWave-LightItalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: lt_wave;
+  src: url(lt_wave/LTWave-Regular.ttf);
 }
