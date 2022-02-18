@@ -51,6 +51,18 @@ body {
   display: flex;
   flex-direction: column;
 }
+.aak-fa-center {
+  align-items: center;
+  justify-content: center;
+}
+.aak-fa-space-a {
+  align-items: center;
+  justify-content: space-around;
+}
+.aak-fa-space-b {
+  align-items: center;
+  justify-content: space-between;
+}
 .aak-row {
   display: flex;
 }
