@@ -66,3 +66,13 @@ body {
 .aak-row {
   display: flex;
 }
+/* HEIGHT */
+.aak-h100 {
+  height: 100%;
+}
+.aak-h50 {
+  height: 50%;
+}
+.aak-h25 {
+  height: 25%;
+}
