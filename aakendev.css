@@ -44,4 +44,5 @@ body {
 @font-face {
   font-family: lt_wave;
   src: url(lt_wave/LTWave-Regular.ttf);
+  font-weight: 400;
 }
