@@ -66,6 +66,31 @@ body {
 .aak-row {
   display: flex;
 }
+/* HEADINGS */
+h1, .aak-h1 {
+  font-size: calc(1em * 4);
+  font-weight: 800;
+}
+h2, .aak-h2 {
+  font-size: calc(1em * 3.5);
+  font-weight: 700;
+}
+h3, .aak-h3 {
+  font-size: calc(1em * 3);
+  font-weight: 600;
+}
+h4, .aak-h4 {
+  font-size: calc(1em * 2.5);
+  font-weight: 500;
+}
+h5, .aak-h5 {
+  font-size: calc(1em * 2);
+  font-weight: 400;
+}
+h6, .aak-h6 {
+  font-size: calc(1em * 1.5);
+  font-weight: 400;
+}
 /* HEIGHT */
 .aak-h100 {
   height: 100%;
