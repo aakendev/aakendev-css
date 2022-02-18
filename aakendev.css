@@ -46,6 +46,30 @@ body {
   src: url(lt_wave/LTWave-Regular.ttf);
   font-weight: 400;
 }
+/* CIRCLE SHAPE */
+[class^="aak-circle-"] {
+  border-radius: 50%;
+}
+.aak-circle-xs {
+  width: calc(1em * 1);
+  height: calc(1em * 1);
+}
+.aak-circle-s {
+  width: calc(1em * 2);
+  height: calc(1em * 2);
+}
+.aak-circle-m {
+  width: calc(1em * 3);
+  height: calc(1em * 3);
+}
+.aak-circle-l {
+  width: calc(1em * 4);
+  height: calc(1em * 4);
+}
+.aak-circle-xl {
+  width: calc(1em * 5);
+  height: calc(1em * 5);
+}
 /* FLEX */
 .aak-col {
   display: flex;
@@ -100,4 +124,19 @@ h6, .aak-h6 {
 }
 .aak-h25 {
   height: 25%;
+}
+/* IMAGES */
+.aak-img-center {
+  display: block;
+  margin: 0 auto;
+}
+/* WIDTH */
+.aak-w100 {
+  width: 100%;
+}
+.aak-w50 {
+  width: 50%;
+}
+.aak-w25 {
+  width: 25%;
 }
