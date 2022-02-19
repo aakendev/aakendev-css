@@ -46,6 +46,27 @@ body {
   src: url(lt_wave/LTWave-Regular.ttf);
   font-weight: 400;
 }
+/* BOXES */
+.aak-boxes {
+  width: 350px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .aak-boxes {
+    width: 700px;
+  }
+}
+@media (min-width: 1024px) {
+  .aak-boxes {
+    width: 950px;
+  }
+}
+@media (min-width: 1440px) {
+  .aak-boxes {
+    width: 100%;
+    max-width: 1350px;
+  }
+}
 /* CIRCLE SHAPE */
 .aak-circle-xs {
   width: calc(1em * 3);
