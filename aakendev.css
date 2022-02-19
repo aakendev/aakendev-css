@@ -132,6 +132,22 @@ h6, .aak-h6 {
   display: block;
   margin: 0 auto;
 }
+/* MARGINS */
+.aak-m-1 {
+  margin: calc(1em * 0.5);
+}
+.aak-m-2 {
+  margin: calc(1em * 1);
+}
+.aak-m-3 {
+  margin: calc(1em * 1.5);
+}
+.aak-m-4 {
+  margin: calc(1em * 2);
+}
+.aak-m-5 {
+  margin: calc(1em * 2.5);
+}
 /* PADDINGS */
 .aak-p-1 {
   padding: calc(1em * 0.5);
